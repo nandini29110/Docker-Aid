@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>MAKE YOUR <span style="color:#148BE4;">CONTAINER</span></h1>
+
+<form action="file:///var/www/cgi-bin/api.py" method="GET" id="carform">
+  <div style="box-sizing: border-box;border-bottom:1.5px solid #148BE4; width: 30%"<label for="fname">CONTAINER NAME :</label>
+  <input type="text" id="fname" name="fname" style="box-shadow: none;outline: none;border:none; padding-left: 10px"></div>
+</br>
+   <div style="box-sizing: border-box;border-bottom:1.5px solid #148BE4; width: 30%"<label for="fname">CONTAINER TAG :</label>
+  <input type="text" id="fname" name="fname" style="box-shadow: none;outline: none;border:none;padding-left: 10px"></div>
+</br></br>
+<label for="image">Choose an container image:</label>
+<select id="image" name="imagelist" form="carform" style="padding: 10px 60px;border: none;border-radius: 4px;background-color: #f1f1f1; cursor:pointer;">
+  <option value="centos7">Centos:7</option>
+  <option value="centosl">Centos:latest</option>
+  <option value="ubuntu">ubuntu:14.04</option>
+  <option value="audi">mysql</option>
+</select>
+</br>
+</br>
+<button type="submit" style="padding:10px 50px;letter-spacing:1px;margin-top: 30px;margin-bottom: 15px; background-color:#148BE4;color:#fff; cursor:pointer;"> SAVE </button>
+
+<br>
+</form>
+
+<p></p>
+
+</body>
+</html>
